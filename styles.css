@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Para garantir que o texto seja legível sobre a imagem de fundo */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para o cabeçalho */
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
+main {
+    padding: 20px;
+}
+
+.movie {
+
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente para as seções de filmes */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding:20px;
+}
+
+h2 {
+    color: #ffcc00; /* Cor diferente para os títulos dos filmes */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para o rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    background-position: center;
+}
+
